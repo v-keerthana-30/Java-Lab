@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class ListSorting
 {
      public static void main(String args[])
@@ -9,7 +8,6 @@ public class ListSorting
            nl.sort_names();
      }
 }
-
 class NameList
 {
     void sort_names()
@@ -41,7 +39,5 @@ class NameList
         {
             System.out.print("\n" + names[i]);
         }
-
     }
-
 }
